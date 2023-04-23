@@ -6,5 +6,10 @@
                 Не домашняя страница
             </div>
         </div>
+        <div>
+            <img src="@/assets/banana.gif">
+            <img src="@/assets/banana.gif">
+            <img src="@/assets/banana.gif">
+        </div>
     </section>
 </template>
