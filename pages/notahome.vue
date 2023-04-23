@@ -6,7 +6,7 @@
                 Не домашняя страница
             </div>
         </div>
-        <div>
+        <div class="dancing__banana">
             <img src="@/assets/banana.gif">
             <img src="@/assets/banana.gif">
             <img src="@/assets/banana.gif">
