@@ -1,5 +1,10 @@
 <template>
     <section>
-        <div class="Head">Это не домашняя страница</div>
+        <navbar />
+        <div class="head">
+            <div class="head__text">
+                Не домашняя страница
+            </div>
+        </div>
     </section>
 </template>
