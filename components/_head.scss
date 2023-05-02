@@ -1,0 +1,17 @@
+$header__font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.head {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.head__text {
+    font-family: $header__font;
+    background-color: rgba(255, 187, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    padding: 10px;
+    border-radius: 100 / 10px;
+    font-size: 35px;
+    box-shadow: $default__shadow;
+    cursor: default;
+    user-select: none;
+}
