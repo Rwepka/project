@@ -1,0 +1,16 @@
+$default__shadow: 0px 0px 10px 1px rgb(0 0 0 / 30%);
+body {
+    background-color: bisque;
+    background-image: url(@/assets/background.jpg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+@import "head";
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+    }
+    .head { @include transform(rotate(2deg)); }
+@import "pages";
+@import "dancing__banana";

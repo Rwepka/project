@@ -1,0 +1,14 @@
+%page {
+    box-shadow: $default__shadow;
+    border-radius: 25px;
+    height: 350px;
+    width: 350px;
+}
+.pages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.page__1, .page__2, .page__3 {
+    @extend %page;
+}
