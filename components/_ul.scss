@@ -1,0 +1,33 @@
+$ul-li-a__margin: 10px;
+$ul-li-a__border__radius: 10px;
+$ul-li-a__padding: 10px;
+%ul-li-a {
+    background-color: $default__background-color;
+    border-radius: $ul-li-a__border__radius;
+    padding: $ul-li-a__padding;
+    margin-top: $ul-li-a__margin;
+}
+div {
+    .ul {
+        display: flex;
+        justify-content: center;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+    
+      .ul__li { 
+        display: inline-block; 
+        @extend %ul-li-a;
+        }
+    
+      .ul__a {
+        cursor: pointer;
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+        @extend %ul-li-a;
+    }
+}

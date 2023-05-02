@@ -11,5 +11,11 @@
             <img class="page__2" src="@/assets/page2.jpg">
             <img class="page__3" src="@/assets/page3.jpg">
         </div>
+        <div class="ul">
+            <ul>
+                <li class="ul__li">Text</li>
+                <a class="ul__a">Link</a>
+            </ul>
+        </div>
     </section>
 </template>
